@@ -1,4 +1,12 @@
-body { 
-    background: url(../images/soon.png) no-repeat center center fixed; 
-    background-size: cover;
+.soon-img{
+  width: 85%;
+  margin-left: 75px;
+}
+
+
+@media (max-width: 768px) {
+  .soon-img{
+    width: 100%;
+    margin: 0px;
   }
+ }
