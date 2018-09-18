@@ -1,12 +1,12 @@
 .soon-img{
-  width: 85%;
-  margin-left: 75px;
+    width: 85%;
+    margin-left: 75px;
+    margin-top: 20px;
 }
 
-
 @media (max-width: 768px) {
-  .soon-img{
-    width: 100%;
-    margin: 0px;
-  }
- }
+    .soon-img{
+        width: 100%;
+        margin: 0px;
+    }
+}
