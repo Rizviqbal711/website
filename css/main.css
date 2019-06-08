@@ -1,12 +1,24 @@
-.soon-img{
-    width: 85%;
-    margin-left: 75px;
-    margin-top: 20px;
+.main-content{
+    height: 100vh; 
+    background: url(../images/background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
 }
 
-@media (max-width: 768px) {
-    .soon-img{
-        width: 100%;
-        margin: 0px;
+.name{
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+
+@media(max-width: 768px){
+    .main-content{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: -500px;
+        background-position-y: center;
     }
+    
 }
